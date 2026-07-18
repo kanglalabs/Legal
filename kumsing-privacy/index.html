@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Kumsing – Privacy Policy</title>
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --card: #ffffff;
+    --ink: #1c1c1e;
+    --muted: #5c5c62;
+    --line: #e6e2d8;
+    --accent: #1c1c1e;
+    --tangerine: #e08a3c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1c1e;
+      --card: #242426;
+      --ink: #f2f2f4;
+      --muted: #a0a0a6;
+      --line: #34343a;
+      --accent: #f2f2f4;
+      --tangerine: #e8a35c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 28px 26px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+  }
+  h1 {
+    font-size: 26px;
+    line-height: 1.25;
+    margin: 4px 0 14px;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 30px 0 8px;
+    padding-top: 6px;
+    border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: none; }
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 6px;
+  }
+  .meta strong { color: var(--ink); }
+  p { margin: 10px 0; }
+  ul { margin: 10px 0; padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--tangerine); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code {
+    background: rgba(128,128,128,0.14);
+    padding: 1px 6px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .lead {
+    color: var(--muted);
+    font-size: 16px;
+    margin: 0 0 8px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 28px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>Kumsing Privacy Policy</h1>
+    <p class="meta"><strong>Effective date:</strong> 18 July 2026</p>
+    <p class="meta"><strong>App:</strong> Kumsing – Manipuri Calendar (<code>com.kanglalabs.kumsing</code>)</p>
+    <p class="meta"><strong>Developer:</strong> Kangla Labs (<a href="mailto:kanglalabs@kanglalabs.dev">kanglalabs@kanglalabs.dev</a>)</p>
+
+    <p class="lead">Kumsing is built to work offline and to collect as little as possible. This policy explains exactly what data the app touches and why.</p>
+
+    <h2>Data we do NOT collect</h2>
+    <ul>
+      <li>No advertising identifiers, no ads, no ad networks.</li>
+      <li>No analytics or tracking SDKs. We do not know how you use the app.</li>
+      <li>No location data.</li>
+      <li>No contacts, photos (beyond those you attach yourself), microphone, or SMS access.</li>
+    </ul>
+
+    <h2>Data stored only on your device</h2>
+    <p>Everything you create in Kumsing lives in a private database on your phone: planner events, invitation cards and their photos, tarot journal entries, your chosen rashi, themes and settings. If you never sign in, nothing ever leaves your device.</p>
+    <p><strong>Phone calendar import (optional):</strong> if you use "Import events" and grant the calendar permission, Kumsing reads your device calendar once to copy the events you select into its own planner. It never modifies or deletes anything in your phone calendar, and the permission is used for nothing else.</p>
+
+    <h2>Data stored in the cloud (only if you sign in)</h2>
+    <p>Signing in with Google is optional. If you do, the following is stored in Google Firebase (Firestore, asia-south2/Delhi region) under your account, solely to back up your data and sync it between your devices:</p>
+    <ul>
+      <li>Your Google account's basic profile (name, email) — used to show who is signed in and to identify your backup.</li>
+      <li>Your planner events, invitation entries (without photos), tarot journal entries and chosen rashi.</li>
+    </ul>
+    <p>This data is transmitted encrypted (HTTPS/TLS), is readable only by your authenticated account under Firebase security rules, and is never sold, shared, or used for advertising or profiling. We use no other third-party services.</p>
+
+    <h2 id="data-deletion">Data deletion</h2>
+    <ul>
+      <li><strong>Sign out</strong> stops all syncing; your data stays on your device.</li>
+      <li><strong>Delete account &amp; cloud data</strong> (in Settings → Account) permanently removes your backup from Firestore and deletes your Firebase account.</li>
+      <li>You may also request deletion by emailing <a href="mailto:kanglalabs@kanglalabs.dev">kanglalabs@kanglalabs.dev</a>; we will complete it within 30 days.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>Kumsing is a general-audience calendar app and does not knowingly collect personal data from children.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be posted at this URL with an updated effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Kangla Labs — <a href="mailto:kanglalabs@kanglalabs.dev">kanglalabs@kanglalabs.dev</a></p>
+  </div>
+  <footer>© 2026 Kangla Labs</footer>
+</div>
+</body>
+</html>
